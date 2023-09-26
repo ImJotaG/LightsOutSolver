@@ -148,10 +148,6 @@ def ejecutar_codigo_con_gui():
         resultados_ventana = tk.Toplevel(ventana)
         resultados_ventana.title("Resultados")
 
-        Deslizador = tk.Scrollbar (resultados_ventana, )
-        Deslizador.pack(side=tk.RIGHT)
-
-
         
         texto = tk.Label(resultados_ventana, text="Si bx=1 debe presionar el botón correspondiente", font=("Arial", 19))
         texto.grid(row=0, column=0)
